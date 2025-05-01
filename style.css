@@ -1,0 +1,77 @@
+body{
+	background:black;
+	margin: auto;
+}
+
+i{
+	font-size: 150%;
+}
+
+.container{
+	width: 400px;
+	height: 500px;
+	margin: 20vh auto;
+	background: white;
+	display: flex;
+}
+
+img{
+	width: 100%;
+}
+
+div{
+	box-sizing: border-box;
+	background-color: white;
+}
+
+.post-header , .post-icons i{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+
+.post-icons  {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+}
+
+.bookmark{
+	align-self: flex-end;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+}
+
+.div1{
+	display: flex;
+	background-color: purple;
+
+}
+
+.div1 div i, .menu i{
+	margin: 10px;
+}
+
+.text1 {
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+
+.l3 {
+	display: flex;
+	margin: 10px;
+	gap: 10px;
+	
+}
+
+.Post-likes{
+	margin: 5px;
+}
+ 
+.post-body p, .post-body {
+	margin: 5px;
+	font-size: 15px;
+	
+}
